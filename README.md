@@ -1,8 +1,8 @@
 # laravel-notebook
 
 
-Retrieve a fresh database instance
+Refresh a database instance
 ```php
-$link->fresh()
+$link = $link->fresh()
 ```
 
