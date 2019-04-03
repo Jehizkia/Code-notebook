@@ -1,7 +1,7 @@
 # laravel-notebook
 
 
-# Retrieve a fresh database instance
+Retrieve a fresh database instance
 ```php
 $link->fresh()
 ```
