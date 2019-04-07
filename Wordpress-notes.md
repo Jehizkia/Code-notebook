@@ -9,3 +9,8 @@ Change the `custom-file.css` to include it in the tailwindcss build.
     "tailwind": "./node_modules/.bin/tailwind build ./css/custom-file.css -c ./css/tailwind.js -o ./style.css"
   }
 ```
+
+To create build
+``` bash
+  npm run build
+```
