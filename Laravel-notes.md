@@ -6,3 +6,10 @@ Refresh a database instance
 $link = $link->fresh()
 ```
 
+## Eloquent
+
+Where doesn't Have
+
+```php
+Person::whereDoesntHave('items')
+```
