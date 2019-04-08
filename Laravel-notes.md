@@ -1,5 +1,5 @@
 # laravel-notebook
-
+This is a personal notebook with quick references and undocumented examples.
 
 Refresh a database instance
 ```php
