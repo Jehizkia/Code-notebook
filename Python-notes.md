@@ -3,6 +3,7 @@
 ### Logging template
 ```py
 import logging
+import sys
 
 LOG_FORMAT = '%(levelname)s %(asctime)s - %(message)s'
 logging.basicConfig(filename='../recsys.log', level=logging.DEBUG, format=LOG_FORMAT)
