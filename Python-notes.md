@@ -22,5 +22,6 @@ Usage in other file
 import logging
 
 logger = logging.getLogger(__name__)
-logger.info('Your log message')
+
+logging.info('Your log message')
 ```
