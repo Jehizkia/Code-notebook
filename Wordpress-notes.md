@@ -52,6 +52,22 @@ foreach ($posts as $post){
 $text = apply_filters('the_excerpt', get_post_field('post_excerpt', $post_id));
 ```
 
+### Get post meta data
+```php
+$post_meta = get_post_meta($post->ID);
+$jumbotron_header = get_post_meta($post->ID, 'jumbotron-header');
+```
+
+### Get Featured iamge
+```php
+wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'large');
+echo $image[0];
+```
+
+### Get thumbnail url
+```php
+echo the_post_thumbnail_url(array('medium'))
+```
 
 ## Admin
 Add new admin user. Add this to ```functions.php```
