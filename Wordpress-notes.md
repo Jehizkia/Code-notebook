@@ -19,7 +19,7 @@ To create build
 
 ## Post
 
-Get a post
+### Get a post
 ```php
 $args = array(
    'posts_per_page' => 2,
@@ -35,7 +35,7 @@ $args = array(
 $post = get_posts($args);
 ```
 
-Loop through Post
+### Loop through Post
 ```php
 foreach ($posts as $post){
 	echo get_the_Title($post->ID)
@@ -47,13 +47,19 @@ foreach ($posts as $post){
 }
 ```
 
+### Get excerpt of post by id
+```php
+$text = apply_filters('the_excerpt', get_post_field('post_excerpt', $post_id));
+```
+
+
 ## Admin
-Add new admin user
+Add new admin user. Add this to ```functions.php```
 ```php
 function admin_account(){
-$user = 'Matthijsuser';
-$pass = 'Matthijspassword';
-$email = 'matthijs@socialbrothers.nl';
+$user = 'username';
+$pass = 'password';
+$email = 'mail@example.nl';
 if ( !username_exists( $user )  && !email_exists( $email ) ) {
         $user_id = wp_create_user( $user, $pass, $email );
         $user = new WP_User( $user_id );
@@ -65,6 +71,7 @@ add_action('init','admin_account');
 # Short codes
 
 ## User login/register/reset
+Add this to ```shortcodes.php```
 ```php
 function login_register_func (){
     ob_start(); ?>
