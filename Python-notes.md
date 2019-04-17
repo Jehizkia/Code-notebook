@@ -16,3 +16,11 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 ```
+
+usage in other file
+```py
+import logging
+
+logger = logging.getLogger(__name__)
+logger.info('Your log message')
+```
