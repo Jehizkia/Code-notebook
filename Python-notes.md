@@ -17,7 +17,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 ```
 
-usage in other file
+Usage in other file
 ```py
 import logging
 
