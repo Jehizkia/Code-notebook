@@ -25,3 +25,8 @@ logger = logging.getLogger(__name__)
 
 logging.info('Your log message')
 ```
+
+### Single line if else
+```py
+'Yes' if fruit == 'Apple' else 'No'
+```
