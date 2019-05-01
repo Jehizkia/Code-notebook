@@ -22,5 +22,5 @@ Person::whereDoesntHave('items')
 ## Controller tricks
 Clean store request
 ```php
-Project::create([request('title', 'description')]);
+Project::create(request(['title', 'description']));
 ```
