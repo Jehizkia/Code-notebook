@@ -17,3 +17,10 @@ Where doesn't Have
 ```php
 Person::whereDoesntHave('items')
 ```
+
+
+## Controller tricks
+Clean store request
+```php
+Project::create([request('title', 'description')]);
+```
