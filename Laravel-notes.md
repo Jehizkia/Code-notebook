@@ -28,8 +28,8 @@ Project::create(request(['title', 'description']));
 
 ### Auth helper
 ```php
-  auth()->id() //4
-  auth()->user() //user instance
-  auth()->check() //boolean
-  auth()->guest() //boolean
+auth()->id() //4
+auth()->user() //user instance
+auth()->check() //boolean
+auth()->guest() //boolean
 ```
