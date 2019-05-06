@@ -24,3 +24,11 @@ Clean store request
 ```php
 Project::create(request(['title', 'description']));
 ```
+
+
+### Auth helper
+```php
+  auth()->id() //4
+  auth()->user() //user instance
+  auth()->check() //boolean
+```
