@@ -32,4 +32,5 @@ auth()->id() //4
 auth()->user() //user instance
 auth()->check() //boolean
 auth()->guest() //boolean
+auth()->hasUser() //boolean
 ```
