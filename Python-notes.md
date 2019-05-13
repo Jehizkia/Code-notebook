@@ -17,6 +17,17 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 ```
 
+### Scraping method
+```py
+import requests
+from bs4 import BeautifulSoup
+
+def retrieve_page(self, url: str):
+    page_response = requests.get(f'{url}{self.parameter}', cookies=self.cookies)
+    return BeautifulSoup(page_response.content, "html.parser")
+
+```
+
 Usage in other file
 ```py
 import logging
