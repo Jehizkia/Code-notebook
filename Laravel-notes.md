@@ -34,3 +34,10 @@ auth()->check() //boolean
 auth()->guest() //boolean
 auth()->hasUser() //boolean
 ```
+
+# Testing
+
+Display exceptions
+```php
+$this->withoutExceptionHandling()
+```
