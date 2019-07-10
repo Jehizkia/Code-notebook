@@ -49,6 +49,8 @@ mounted () {
 
 ```
 
+```tip: Use console.log(module) to see which components the module contains.```
+
 
 
 ## Length of an object
