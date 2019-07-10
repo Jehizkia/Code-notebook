@@ -1,6 +1,6 @@
 # VueJs notebook
 
-### Dynamically loading component into vue
+## Dynamically loading component into vue
 This code example shows how to load components dynamically. 
 This is useful for when you are using SSR and the library you are trying to import makes use of the ```Window``` object. 
 When not dynamically importing the component it will result into a ```ReferenceError: window is not defined``` error.
@@ -51,7 +51,7 @@ mounted () {
 
 
 
-### Length of an object
+## Length of an object
 Grabs the keys of the object and using array.length to retrieve te amount.
 ```js
 const object1 = {
