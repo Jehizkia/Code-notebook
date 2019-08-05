@@ -66,3 +66,11 @@ console.log(Object.keys(object1).length);
 // expected output: 3
 
 ```
+
+
+
+## Style Background image
+```html
+<div class="h-10 w-10" :style="{ backgroundImage: 'url('+ image +')' }" >
+</div>
+```
