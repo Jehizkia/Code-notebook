@@ -74,3 +74,12 @@ console.log(Object.keys(object1).length);
 <div class="h-10 w-10" :style="{ backgroundImage: 'url('+ image +')' }" >
 </div>
 ```
+
+## Simple search function
+```js
+computed: {
+  filteredPeople() {
+    return this.people.filter(item => item.name.toLowerCase().includes(this.search.toLowerCase()))
+  }
+},
+```
