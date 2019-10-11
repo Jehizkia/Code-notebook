@@ -18,3 +18,21 @@ console.log(Object.keys(object1).length);
 // expected output: 3
 
 ```
+
+
+### Move element in an array
+```js
+const array = ['Tesla', 'Audi', 'BMW']
+
+const selectedItemIndex = 1
+const selectedItem = array[selectedItemIndex] //Audi
+
+// Remove element from array
+array.splice(selectedItemIndex, 1)
+
+//Insert element back into the array at a different position
+const newItemPosition = 0
+array.splice(newItemPosition, 0, selectedItem)
+
+// outcome: ['Audi', 'Audi', 'BMW']
+```
