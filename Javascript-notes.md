@@ -34,5 +34,5 @@ array.splice(selectedItemIndex, 1)
 const newItemPosition = 0
 array.splice(newItemPosition, 0, selectedItem)
 
-// outcome: ['Audi', 'Audi', 'BMW']
+// outcome: ['Audi', 'Tesla', 'BMW']
 ```
