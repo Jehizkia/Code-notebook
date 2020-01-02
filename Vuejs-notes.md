@@ -83,3 +83,9 @@ computed: {
   }
 },
 ```
+
+## Toggle classes with multiple booleans
+```html
+<div :class="{"w-full gradient": isActive, "hidden alert": hasError}">
+</div>
+```
