@@ -53,6 +53,29 @@ or alter the file VerifyCsrfToken.php and alter the $except array
     ];
 ```
 
+# Forge
+
+### Deploy script
+
+```bash
+
+$FORGE_PHP artisan cache:clear
+$FORGE_PHP artisan view:clear
+$FORGE_PHP artisan route:clear
+$FORGE_PHP artisan clear-compiled
+$FORGE_PHP artisan optimize:clear
+
+$FORGE_PHP artisan config:cache
+$FORGE_PHP artisan route:cache
+$FORGE_PHP artisan view:cache
+$FORGE_PHP artisan optimize
+$FORGE_PHP artisan storage:link
+
+npm install
+npm run prod
+
+```
+
 
 # Trouble shooting
 
