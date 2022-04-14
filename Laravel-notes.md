@@ -31,6 +31,13 @@ auth()->guest() //boolean
 auth()->hasUser() //boolean
 ```
 
+## Blade
+
+### Get all available variables in a php blade file
+```php
+dd(array_keys(get_defined_vars()));
+```
+
 ## Zoho SMTP 2FA
 If you want to send emails with your laravel application using the Zoho mail SMTP follow the steps. If your mailadress has 2FA activated you'll need to go to your zoho settings by going to [Zoho settings](https://accounts.zoho.eu). You'll need to create a ***Application-Specific Password***. You can't use your regular password because logging in will fail [see offical zoho page](https://www.zoho.com/mail/help/adminconsole/two-factor-authentication.html#alink5) and [zoho smtp](https://www.zoho.com/mail/help/pop-access.html?zredirect=f&zsrc=langdropdown&lb=nl).
 
