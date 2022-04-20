@@ -1,4 +1,4 @@
 # Code-notebook
 This is a personal notebook with snippets of code I use frequently.
 
-If you have usefull snippets feel free to add them.
+I don't think anyone will probably ever see this repo, but if you found it useful let me know!
