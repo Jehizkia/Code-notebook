@@ -140,7 +140,7 @@ You can access you data from within you views with `$record`. This will return t
 If you want to display the table of your resource in *View only* mode you can simply access the `$this->form` property from your blade file.
 
 #### Example
-
+***laravel-app/resources/views/filament/resources/announcement-resource/pages/view-announcement.blade.php***
 ```blade
 <x-filament::page>
     <div class="p-6 space-y-4 bg-white rounded-xl border border-gray-300 filament-forms-card-component">
