@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Blender/Glossary.md",
+            "file": "Blender/Shortcuts.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blender/Glossary.md",
+                "file": "Blender/Shortcuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blender/Glossary.md",
+                "file": "Blender/Shortcuts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blender/Glossary.md"
+                "file": "Blender/Shortcuts.md"
               }
             }
           }
@@ -129,15 +129,15 @@
   },
   "active": "f68ed09c606978e2",
   "lastOpenFiles": [
-    "Blender/Shortcuts.md",
+    "Blender/Glossary.md",
     "Blender/General.md",
-    "Laravel/Laravel-notes.md",
-    "Laravel/Filament.md",
-    "Wordpress-notes.md",
-    "Vuejs-notes.md",
+    "Blender/Animation Reference/Fight Reference.md",
+    "Blender/Animation Reference/Videos/AgitatedJoyousIndianhare-mobile.mp4",
+    "Blender/Animation Reference/Videos/ElementaryVigilantAustraliansilkyterrier-mobile.mp4",
+    "Blender/Animation Reference/Videos/speed_compare.gif",
     "README.md",
-    "Python-notes.md",
-    "Javascript-notes.md",
-    "General.md"
+    "Screenshot 2022-07-17 at 19.15.03.png",
+    "Blender/Shortcuts.md",
+    "Vuejs-notes.md"
   ]
 }
